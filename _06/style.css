@@ -1,0 +1,175 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .topmenu__box{
+    background-color: #ffce33;
+    width:341px;
+    height:105px;
+  }
+  
+  .topmenu__box__content__box{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    height:100%;
+    padding:15px;
+  }
+  
+  .searchbox__box{
+    display:flex;
+    justify-content: center;
+  }
+  
+  .main__container{
+    width:341px;
+    height:780px;
+  }
+  
+  .searchbox__box__container{
+    border-radius:15px;
+    border:1px grey solid;
+    width:320px;
+    height:50px;
+    position:relative;
+    top:-25px;
+    background-color: white;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    color:rgba(0,0,0,0.5);
+  }
+  
+  .searchbox__box__container{
+    padding:8px;
+    box-shadow: 0 4px 2px -2px gray;
+  }
+  
+  .mainbook__contentbox{
+    padding:15px;
+  }
+  
+  .mainbook__text{
+    font-weight:bolder;
+    font-size:20px;
+    margin-bottom:15px;
+  }
+  
+  .book__cover__container{
+    display:flex;
+  }
+  
+  .book__title{
+    width:100%;
+    margin-left:15px;
+  }
+  
+  .book__title.book__title>h3{
+    font-size: 22px;
+    font-weight:bold;
+  }
+  
+  .book__title.book__title>h4{
+    color:rgba(0,0,0,0.5);
+    margin:12px 0px;
+  }
+  
+  .type__container{
+    display:flex;
+  }
+  
+  .type1,.type2{
+    background-color:#f7f7f7;
+    border-radius:10px;
+    padding:7px;
+    margin:15px 9px;
+  }
+  
+  .bookmark__container{
+    border:1px solid black;
+    border-radius: 15px;
+    background-color:#ffce33;
+    margin-right:35px;
+    padding:8px;
+  }
+  
+  .button_container{
+    display:flex;
+    align-items:center;
+  }
+  
+  .booknow__button{
+    border:1px solid black;
+    color:white;
+    background-color:black;
+    border-radius:5px;
+    width:110px;
+    height:35px;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+  }
+  
+  .recomend__text{
+    border:45px;
+    font-weight:bold;
+    font-size:20px;
+    margin:40px 0px;
+  }
+  
+  .recomend__bookcover__container{
+    overflow-x:scroll;
+  }
+  
+  .searchbox__box{
+    box-
+  }
+  
+  .recommend__bookcover{
+    display:flex;
+    flex-direction:column;
+  }
+  
+  .star__container{
+    margin-top:10px;
+    width:80px;
+    height:28px;
+    font-size:1px;
+  }
+  
+  .recomend__bookcover__container{
+    display:flex;
+  }
+  
+  .popular__authors{
+      border:45px;
+    font-weight:bold;
+    font-size:20px;
+    margin:20px 0px;
+  }
+  
+  .author__detail__container{
+    margin-bottom:24px;
+    display:flex;
+  }
+  
+  .authorInfo{
+    display:flex;
+  }
+  
+  .authorname{
+    margin-left:30px;
+    font-weight:medium;
+    font-size:20px;
+    width:100%;
+    display:flex;
+    margin-top:10px;
+    margin-bottom:30px;
+  }
+  
+  .authorintro{
+    color:rgba(0,0,0,0.5);
+    margin-left:30px;
+  }
+  
+  
