@@ -1,0 +1,296 @@
+* {
+  box-sizing: border-box;
+}
+
+html{
+}
+
+body{
+  background-color:#f7f7f7;
+  height:100vh;
+  width:100vw;
+  display:flex;
+  justify-content: space-evenly;
+}
+
+.leftscreen{
+  width:365px;
+  height:786px;
+  border:1px solid black;
+  margin:70px 0px;
+  margin-left:75px;
+  border-radius:23px;
+}
+
+.top__buttons__row{
+  margin-top:40px;
+  margin-bottom:20px;
+  display:flex;
+  justify-content: space-between;
+  padding:25px;
+}
+
+.profilePicContainer, .profilePicContainer_rightScreen{
+  display:flex;
+  justify-content: center;
+}
+
+.profilePic{
+  display:flex;
+  height:90px;
+  width:90px;
+}
+
+.profilePic_rightScreen{
+  display:flex;
+  margin-bottom:50px;
+}
+
+.profilePic_rightScreen>img{
+  border-radius: 15px;
+  height:260px;
+  width:260px;
+  box-shadow:0px 5px rgba(211, 211, 211, 0.5);
+}
+
+.profilePic>img{
+  border-radius: 50%;
+}
+
+.musicianName, .musicianName_right{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  margin-top:35px;
+  margin-bottom:20px;
+}
+
+.musicianName h1{
+  font-size:30px;
+  font-weight:bold;
+  letter-spacing: 5px;
+}
+
+.musicianName_right h1{
+  font-size:20px;
+  font-weight:bold;
+  letter-spacing: 5px;
+}
+
+.musicianName h5, .musicianName_right h5{
+  margin-top:30px;
+  font-size:15px;
+  font-weight:bold;
+  color:rgba(0,0,0,0.5);
+}
+
+.playlistOptionRow{
+  margin-top:20px;
+}
+
+.shuffleButton{
+  display:flex;
+  align-items: center;
+  justify-content:center;
+  width:120px;
+  height:45px;
+  border: 1px solid black;
+  border-radius:25px;
+  margin-right:15px;
+}
+
+.likeButton{
+  display:flex;
+  align-items: center;
+  justify-content:center;
+  width:120px;
+  height:45px;
+  border: 1px solid black;
+  border-radius:25px;
+}
+
+.playlistOptionContainer{
+  display:flex;
+  justify-content: center;
+  margin-bottom:25px;
+}
+
+.likeButton>i{
+  margin-right:10px;
+}
+
+
+.playlistContainer{
+  display:flex;
+  flex-direction:column;
+}
+
+.playlistAlbumCover{
+  display:flex;
+  position:relative;
+}
+
+.playlistAlbumCover>img{
+  width:50px;
+  height:46px;
+  margin-left:45px;
+}
+
+
+
+.playlistInfoContainer>h5{
+  margin-left:15px;
+  color:rgba(0,0,0,0.5);
+}
+
+.playlistInfoContainer h4{
+  display:flex;
+  margin-top:15px;
+  margin-left:15px;
+  font-weight:bold;
+}
+
+.playlistContainerRow{
+  display:flex;
+  justify-content: space-between;
+  margin-bottom:15px;
+  margin-right:45px;
+}
+
+.playlistContainerRow i{
+  display:flex;
+  align-items: center;
+}
+
+.playlistControllerContainer{
+  display:flex;
+  width:330px;
+  height:75px;
+  border:1px solid #374151;
+  border-radius:35px;
+  background-color:#374151;
+  align-items: center;
+  justify-content: space-between;
+}
+.playlistController{
+  display:flex;
+  justify-content: center;
+  margin-top:10px;
+}
+
+.currentPlayInfo{
+  margin-left:25px;
+  font-weight:bold;
+  color:#757575;
+  font-weight:bold;
+}
+
+.currentPlayInfo h1{
+  margin-top:15px;
+  font-weight:bolder;
+  color:#e8e8e8;
+}
+
+.currentPlayButton{
+  margin-right:25px;
+}
+
+.currentPlayButton i:nth-child(2){
+  margin:0px 15px;
+}
+
+
+.playlist .playlistContainer:nth-child(2) img {
+  filter: grayscale(50%);
+  position:relative;
+}
+
+
+.wave {
+  display:flex;
+  position:absolute;
+  bottom:10px;
+  left:50px;
+  transform: rotatex(180deg);
+  /* color:rgba(0,0,0,0.5); */
+}
+
+.wave div:first-child{
+  height:25px;
+  width:10px;
+  margin-right:5px;
+  background-color:rgba(128,128,128,0.7);
+}
+
+.wave div:nth-child(2){
+  height:30px;
+  width:10px;
+  margin-right:5px;
+  background-color:rgba(128,128,128,0.7);
+}
+
+.wave div:nth-child(3){
+  height:20px;
+  width:10px;
+  margin-right:5px;
+  background-color:rgba(128,128,128,0.7);
+}
+
+/* .playlist .playlistContainer:nth-child(2) img{
+  color:rgba(0,0,0,0.1);
+} */
+
+.rightscreen{
+  width:365px;
+  height:786px;
+  border:1px solid black;
+  margin:70px 0px;
+  margin-right:50px;
+  border-radius:23px;
+}
+
+.playTime{
+  display:flex;
+  justify-content: space-between;
+  font-size:15px;
+  color:rgba(0,0,0,0.2);
+  font-weight:bold;
+  letter-spacing: 2px;
+  margin:30px 35px;
+}
+
+.playtimeLine{
+    display:flex;
+  position:relative;
+}
+
+.playtimeLine hr{
+  height:5px;
+  width:300px;
+  background-color: black;
+  color:rgba(0,0,0,0.5);
+  border-radius:50%;
+}
+
+.ball{
+  display:flex;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: black;
+  position:absolute;
+  bottom:6px;
+  left:200px;
+}
+
+.playController{
+  display:flex;
+  adjust-items:center;
+  justify-content: space-evenly;
+  margin-top:80px;
+}
+
+.playController i {
+  margin: 0 10px;
+}
